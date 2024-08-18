@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="Business.css">
+</head>
+<body>
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chat-header">
+            <h2>AI Assistant</h2>
+            <button id="close-chat">x</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="bot-message">
+                <p>Hello! I'm your AI assistant. How can I assist you today?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Ask me anything...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <button class="chatbot-toggle" id="chatbot-toggle">Chat with AI</button>
+    
+    <div id="offline-alert" class="offline-alert">You are offline. Chatbot is not available.</div>
+
+    <script src="business.js"></script>
+</body>
+</html>
